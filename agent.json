@@ -1,0 +1,42 @@
+{
+  "displayName": "omh-external-demo",
+  "defaultLanguageCode": "en",
+  "timeZone": "America/New_York",
+  "projectNumber": 912195042921,
+  "speechToTextSettings": {
+  
+  },
+  "advancedSettings": {
+    "audioExportGcsDestination": {
+    
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      }
+    },
+    "playbackInterruptionSettings": {
+    
+    },
+    "loggingSettings": {
+    
+    },
+    "speechAdaptationSettings": {
+    
+    }
+  },
+  "speakerIdSettings": {
+  
+  },
+  "genAppBuilderSettings": {
+    "engine": "projects/912195042921/locations/global/collections/default_collection/engines/bf5cd0d5-73f9-4593-a834-dff450a108ee-chat-1750174354"
+  },
+  "duplexSettings": {
+  
+  },
+  "startPlaybook": "Chatbot Triage",
+  "webClientSettings": {
+    "boxBorderRadius": "0"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "870bf63e-8b6d-477b-aaad-bb6e072999c7",
+  "actions": [ {
+    "userUtterance": {
+      "text": "i'm having trouble breathing and think i'm having a panic attack"
+    }
+  }, {
+    "playbookInvocation": {
+      "playbook": "Crisis Redirection",
+      "playbookInput": {
+        "precedingConversationSummary": "User indicated mental health crisis and needs to be redirected to crisis resources and additional support",
+        "actionParameters": {
+        
+        }
+      },
+      "playbookOutput": {
+        "executionSummary": "User was referred to additional support via the 988 crisis line and the conversation ended",
+        "actionParameters": {
+        
+        }
+      },
+      "playbookState": "OUTPUT_STATE_OK"
+    }
+  } ],
+  "playbookOutput": {
+    "executionSummary": "User indicated mental health crisis and was redirected for additional support to the crisis playbook",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "Crisis-3",
+  "retrievalStrategy": "DEFAULT",
+  "tokenCount": 201,
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

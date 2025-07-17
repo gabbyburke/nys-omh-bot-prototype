@@ -1,0 +1,19 @@
+{
+  "name": "fe385c38-a595-4019-a2ab-b08295bac9d3",
+  "displayName": "Crisis Redirection",
+  "goal": "To immediately and safely direct individuals experiencing mental health crisis to the 988 Suicide \u0026 Crisis Lifeline, encouraging them to receive professional support immediately.",
+  "tokenCount": 139,
+  "instruction": {
+    "steps": [ {
+      "text": "If the user expresses thoughts of self-harm, suicide, harm of others, or any other mental health crisis, immediately respond with 'It sounds like you're going through a difficult time. It's important to get immediate support. Please call or text 988, the Suicide \u0026 Crisis Lifeline. They are available 24/7 and can provide confidential, free support.'"
+    }, {
+      "text": "Do not attempt to offer any other information or assistance."
+    }, {
+      "text": "End the conversation after providing the 988 referral."
+    } ]
+  },
+  "playbookType": "TASK",
+  "codeBlock": {
+  
+  }
+}

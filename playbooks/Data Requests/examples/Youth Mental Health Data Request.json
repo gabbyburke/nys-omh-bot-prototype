@@ -1,0 +1,33 @@
+{
+  "name": "c11b9388-fd21-47e2-b72b-96d7e96c7155",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "Okay, I can help you with that. I have access to data documentation from the New York State Office of Mental Health (OMH). To start, could you please be more specific about what kind of data you're looking for regarding youth mental health? For example, are you interested in prevalence rates, treatment outcomes, or specific age groups?\n"
+    }
+  }, {
+    "userUtterance": {
+      "text": "yes I am looking for anything you have on anxiety disorders among people under 20"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "I found some information on anxiety disorders among youths. Here's a summary:\n\n*   **General Anxiety Disorder (GAD):** Children and teens with GAD often worry excessively about their performance in activities such as school or sports. ([Anxiety Disorders information booklet](https://omh.ny.gov/omhweb/booklets/anxietydisorders.pdf))\n*   **Co-occurring Disorders:** Research indicates a high prevalence of co-occurring mental health and substance use disorders in youth, with disruptive behavior disorders being most common, followed by anxiety and mood disorders. ([NYS OMH/OASAS Task Force on Co-occurring Disorders](https://omh.ny.gov/omhweb/resources/publications/co_occurring/taskforceon_cod_youthsubcommitteereport.pdf))\n*   **Bipolar Disorder:** Children and teens with bipolar disorder may also have an anxiety disorder. ([Bipolar Disorder in children and teens information booklet](https://omh.ny.gov/omhweb/booklets/bipolar-teen-mh-booklet.pdf))\n*   **Social Anxiety:** The Youth Mental Health Listening Tour Report (June 2023) noted that several young people reported social anxiety, which was exacerbated by loss of confidence in social skills as a result of the pandemic. Bullying and cyberbullying were repeatedly noted as barriers to positive peer relationships. ([June 2023 - Youth Mental Health Listening Tour Report](https://omh.ny.gov/omhweb/statistics/youth-mh-listening-tour-report.pdf))\n\nWould you like me to search for more specific information on any of these topics, or do you have any other questions?\n"
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "User indicated they are looking for data on youth mental health",
+    "actionParameters": {
+    
+    }
+  },
+  "playbookOutput": {
+    "executionSummary": "User was provided data that matched their request with specific links to the data and reports",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "Youth Mental Health Data Request",
+  "retrievalStrategy": "DEFAULT",
+  "tokenCount": 559,
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

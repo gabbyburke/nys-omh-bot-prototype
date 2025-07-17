@@ -1,0 +1,35 @@
+{
+  "name": "90440828-7c2e-4292-899d-dc80fc34eb6b",
+  "actions": [ {
+    "userUtterance": {
+      "text": "I'm feeling suicidal"
+    }
+  }, {
+    "playbookInvocation": {
+      "playbook": "Crisis Redirection",
+      "playbookInput": {
+        "precedingConversationSummary": "User indicated suicidality which is a mental health crisis",
+        "actionParameters": {
+        
+        }
+      },
+      "playbookOutput": {
+        "executionSummary": "User was directed to get additional support through the 988 crisis line",
+        "actionParameters": {
+        
+        }
+      }
+    }
+  } ],
+  "playbookOutput": {
+    "executionSummary": "User indicated suicidality and was redirected to the crisis playbook to get additional support outside of the chatbot experience",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "Crisis-2",
+  "retrievalStrategy": "DEFAULT",
+  "tokenCount": 178,
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "2039a14a-4333-400e-88f9-b64a34a5326c",
+  "actions": [ {
+    "userUtterance": {
+      "text": "need to find a therapist"
+    }
+  }, {
+    "playbookInvocation": {
+      "playbook": "Mental Health Resources",
+      "playbookInput": {
+        "precedingConversationSummary": "User indicated they are looking for specific mental health resources, in this case finding a therapist",
+        "actionParameters": {
+        
+        }
+      },
+      "playbookOutput": {
+        "executionSummary": "Resources playbook was invoked to help the person find the appropriate mental health resource or service",
+        "actionParameters": {
+        
+        }
+      },
+      "playbookState": "OUTPUT_STATE_OK"
+    }
+  } ],
+  "playbookOutput": {
+    "executionSummary": "User immediately requested mental health resources so rather than being greeted again, they were immediately connected to the Mental Health Resources playbook",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "Immediate Request",
+  "retrievalStrategy": "DEFAULT",
+  "tokenCount": 199,
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "0ab9ec33-ac28-4ab4-943a-4cde0ba8454a",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "Symptoms of depression can include persistent sadness, loss of interest in activities, changes in appetite or sleep, fatigue, difficulty concentrating, and feelings of worthlessness. These symptoms can vary from person to person.\n\nFor more information, you can check out this resource from the National Institute of Mental Health: [https://www.nimh.nih.gov/health/topics/depression](https://www.nimh.nih.gov/health/topics/depression)\n\nWas this information helpful? Do you have any other questions about depression or other mental health topics?\n"
+    }
+  }, {
+    "userUtterance": {
+      "text": "are there screenings I should consider?"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Screenings can be a helpful way to assess your mental health and identify potential concerns. Common screenings for depression and anxiety include questionnaires that evaluate your mood, thoughts, and behaviors. These screenings are often available through your primary care physician or a mental health professional.\n\nWould you like me to provide you with some resources where you can find more information about mental health screenings?\n"
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "User asked for general information about the symptoms of depression",
+    "actionParameters": {
+    
+    }
+  },
+  "playbookOutput": {
+    "executionSummary": "Agent provided general information about depression with a link to a citation, and suggested a redirection to a professional which redirected to the Mental Health Resource playbook",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "Symptoms and Screenings",
+  "retrievalStrategy": "DEFAULT",
+  "tokenCount": 317,
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

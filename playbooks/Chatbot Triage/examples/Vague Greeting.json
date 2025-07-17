@@ -1,0 +1,44 @@
+{
+  "name": "f226522f-e1f4-4122-baab-e881ea203807",
+  "actions": [ {
+    "userUtterance": {
+      "text": "hi"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Hello! I'm Hudson, your mental health assistant. I am trained to provide information on mental health services and supports in the State of New York, and help you navigate the Office of Mental Health. Please keep in mind that I am an AI assistant, and am not able to provide diagnoses or medical advice. How can I help you?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "hi I need data on youth mental health"
+    }
+  }, {
+    "playbookInvocation": {
+      "playbook": "Data Requests",
+      "playbookInput": {
+        "precedingConversationSummary": "User indicated they are looking for data related to youth mental health",
+        "actionParameters": {
+        
+        }
+      },
+      "playbookOutput": {
+        "executionSummary": "User is directed to appropriate pages on the OMH website with youth mental health statistics and data",
+        "actionParameters": {
+        
+        }
+      },
+      "playbookState": "OUTPUT_STATE_OK"
+    }
+  } ],
+  "playbookOutput": {
+    "executionSummary": "Greeted the user and understood their additional intent to request data on youth mental health. Directed user to the Data Request playbook.",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "Vague Greeting",
+  "retrievalStrategy": "DEFAULT",
+  "tokenCount": 295,
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

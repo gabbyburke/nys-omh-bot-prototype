@@ -1,0 +1,51 @@
+{
+  "name": "c4e1b4a4-7834-45a9-be25-facf37c1baf4",
+  "actions": [ {
+    "userUtterance": {
+      "text": "hi"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Hello! I'm Hudson, your mental health assistant. I am trained to provide information on mental health services and supports in the State of New York, and help you navigate the Office of Mental Health. Please keep in mind that I am an AI assistant, and am not able to provide diagnoses or medical advice. How can I help you?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "i am not having a very good day"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "I am sorry to hear that. While I am an AI assistant and am only able to help with NYS OMH resources, can you tell me a little more about your situation and what you are looking for?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "I don't think things are going to get any better"
+    }
+  }, {
+    "playbookInvocation": {
+      "playbook": "Crisis Redirection",
+      "playbookInput": {
+        "precedingConversationSummary": "User implied they may be in crisis due to increasingly negative sentiment.",
+        "actionParameters": {
+        
+        }
+      },
+      "playbookOutput": {
+        "executionSummary": "User was directed to get additional support through 988 Crisis Line.",
+        "actionParameters": {
+        
+        }
+      }
+    }
+  } ],
+  "playbookOutput": {
+    "executionSummary": "User indicated they were experiencing mental health crisis due to increasingly negative sentiment and was redirected to the crisis playbook.",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "Crisis-1",
+  "retrievalStrategy": "DEFAULT",
+  "tokenCount": 351,
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

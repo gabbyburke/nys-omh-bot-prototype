@@ -1,0 +1,46 @@
+{
+  "name": "a3ec62c5-8bd0-49dd-83f8-56defed3a9fd",
+  "displayName": "OMH Page Search",
+  "description": "Your primary tool is the search tool, which is connected to the Data Store which is a complete index of the OMH website. Always use the search tool to find relevant information from the Data Store first.",
+  "dataStoreSpec": {
+    "dataStoreConnections": [ {
+      "dataStoreType": "PUBLIC_WEB",
+      "dataStore": "projects/912195042921/locations/global/collections/default_collection/dataStores/nys-omh-website_1750109431983",
+      "documentProcessingMode": "DOCUMENTS",
+      "engineType": "CHAT_ENGINE",
+      "connectorConfig": {
+      
+      },
+      "createTime": {
+        "seconds": 1750109436,
+        "nanos": 330878000
+      },
+      "displayName": "nys-omh-website",
+      "dialogflowAddTime": {
+        "seconds": 1750174354,
+        "nanos": 219000000
+      }
+    } ],
+    "models": {
+      "summarizationModel": {
+        "model": "gemini_20_flash_001"
+      },
+      "rewriterModel": {
+        "model": "default"
+      }
+    },
+    "fallbackPrompt": {
+    
+    },
+    "groundingSettings": {
+      "groundingConfidence": "LOW"
+    },
+    "payloadSettings": {
+    
+    },
+    "voiceModeSettings": {
+    
+    }
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "780a9db3-a5e2-4104-83cf-cbfaccf4e1ec",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "It sounds like you're going through a difficult time. It's important to get immediate support. Please call or text 988, the Suicide \u0026 Crisis Lifeline. They are available 24/7 and can provide confidential, free support.\n"
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "User asked for general information about depression symptoms and screening. User then indicated they may have feelings of suicidality and were immediately redirected to the Crisis Redirection Playbook.",
+    "actionParameters": {
+    
+    }
+  },
+  "playbookOutput": {
+    "executionSummary": "User was directed to 988 Crisis Line after indicating possible suicidal thoughts",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "Symptoms to Crisis Indication",
+  "retrievalStrategy": "DEFAULT",
+  "tokenCount": 158,
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

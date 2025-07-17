@@ -1,0 +1,53 @@
+{
+  "name": "39c80d32-1cff-4803-a445-0a0fcfcbcd4f",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "I can definitely help with that! Anxiety disorders are common and treatable.  They are characterized by excessive worry and fear that can interfere with daily life.  Would you like to know more about the different types of anxiety disorders?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "yes and tell me about the usual treatments"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "There are many different types of anxiety disorders, including generalized anxiety disorder, panic disorder, social anxiety disorder, and obsessive-compulsive disorder.  Treatments for anxiety disorders often include therapy, medication, or a combination of both.  Therapy can help you learn coping skills and understand your anxiety.  Medication can help to reduce symptoms.  Would you like to know more about any of these treatments?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "yes tell me more about medications that are typically used?"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Medications commonly used to treat anxiety disorders include antidepressants, such as selective serotonin reuptake inhibitors (SSRIs) and serotonin-norepinephrine reuptake inhibitors (SNRIs), as well as anti-anxiety medications, such as benzodiazepines.  It's important to note that these medications are typically prescribed by a doctor and should only be taken under their guidance.  Would you like to know more about any of these medications?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "no"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Okay, is there anything else I can help you with today?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "can you help me to find a therapist?"
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "User immediately requested general information about anxiety disorders and indicated that they are not in crisis.",
+    "actionParameters": {
+    
+    }
+  },
+  "playbookOutput": {
+    "executionSummary": "The conversation redirected to a question about finding a therapist which indicates the user is looking for mental health resources. The user was redirected correctly to the Mental Health Resources playbook.",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "Symptoms to Resources Direction",
+  "retrievalStrategy": "DEFAULT",
+  "tokenCount": 436,
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}
